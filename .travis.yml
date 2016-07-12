@@ -1,0 +1,12 @@
+sudo: true
+language: node_js
+node_js:
+- 4
+deploy:
+  provider: npm
+  email: bgjehu@me.com
+  api_key:
+    secure: Wfntk3X7ioCmnZGCl0B+GqK7gx0/+HeOc8ifdKov8AXFkCIDMHwMxISyJjnrp05TIooQS47MgaLny49POZl2DPqCXFnIvo1N+qpAAdKnHcecpMpEd/idMvyTXBcRLtvVpXbvix+IxBsgstdrSdPnSd0tAhIIF/Oh4igaJYxOXfaivUITuiGG1x4yroo/76+zUU26kPtV+eHwTSABrDUZv4+brDF5Xc3Gcz2MqTEqdgvZvQBGUYM19wU6q2nB2jLF2Y+XWyFaEznQsxDn3zR7vaCeZilOcMUToTBTVz8MAFVFTKFuQd/Pp7UVpeEV6EkRwZ0mjDMrQsEfBh3MXYCUvdkM2xo8PX6+pFkaINgUp9myTfrczon5K9NlqBXtUwze5m1I1Ebl+mZdF7FDl6m0BxEwxhwwat984P0RcjFJOxU2hQuEgZJ42A4M7CrtKeW4HiAxBjR2/NLq6eXfdF6G0GdqJbVjlCxBlCHNJZrSn5Ag+CuZuk8rrooPIBxDHdyP4KzRD39Y/N0wtijceotATVoJbSrC4mNYNpcTCHahvnrHj1KDuLQqVC3Pyyo/FtU6ASJUUF2g/dX4oEtn1WYcsZDw6prNyF4/UgsEQE/7k4EYuUDqtAXcZpku1+DjvM+bRu7LSJpOClHnoxhbTNrS+Am725g3t1FMIHLBE442vVg=
+  on:
+    branch: master
+    repo: bgjehu/auto-wechat
